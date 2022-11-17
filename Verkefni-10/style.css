@@ -17,12 +17,16 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #213547;
   text-decoration: inherit;
+  font-size: 12rem;
+  padding: 3rem;
 }
 a:hover {
-  color: #535bf2;
+  filter: opacity(.6);
 }
+
+
 
 body {
   margin: 0;
@@ -45,16 +49,15 @@ h1 {
 }
 
 .logo {
-  height: 6em;
+  height: 10em;
   padding: 1.5em;
   will-change: filter;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: opacity(.6);
+  
 }
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
+
 
 .card {
   padding: 2em;
