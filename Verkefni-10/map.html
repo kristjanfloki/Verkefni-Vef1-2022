@@ -13,7 +13,6 @@
   <body>
     <div id="map" style="width: 100%; height: 100vh;"></div>
     <script>
-      /* eslint-disable no-undef */
       let map;
 
       async function success(pos) {
@@ -34,8 +33,6 @@
 
         map = L.map(document.querySelector('#map'), options);
 
-        // Bætum við "tiles" frá OSM sem eru open source. Gætum líka
-        // notað frá Google, mapbox eða fleirum en þyrftum þá aðgang
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           maxZoom: 19,
           attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
